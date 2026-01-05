@@ -1,4 +1,4 @@
-FROM nginx:20-alpine AS BUILD
+FROM nginx:20-alpine AS build
 
 WORKDIR /app
 COPY package*.json ./
