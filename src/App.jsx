@@ -16,7 +16,7 @@ function App() {
           <img src={reactLogo} className="logo react" alt="React logo" />
         </a>
       </div>
-      <h1>Portfolio using devops and jenkins with connect 2 repo by webhook trigger action</h1>
+      <h1>Portfolio using devops and jenkins with connecting 2 repo</h1>
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
