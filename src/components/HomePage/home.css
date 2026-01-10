@@ -5,6 +5,7 @@
     font-family: 'Rajdhani', sans-serif;
 }
 .content{
+    padding: 0 3rem;
     width: 55%;
     display: flex;
     flex-direction: column;
@@ -14,13 +15,26 @@
     width: 45%;
     text-align: center;
 }
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0, 40px, 0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0, 0, 0);
+    }
+}
+.my-photo{
+    animation: 1s fadeInUp;
+}
 .content .hi{
     font-size: 1.5rem;
     height: 1rem;
 }
 .content .name{
     font-size: 2rem;
-    height: 6rem;
+    height: 6.5rem;
 }
 .content .role{
     font-size: 1rem;
@@ -28,13 +42,13 @@
     color: #ff9727;
 }
 .content .home-btn{
-    width: 30%;
-    margin-top: 1rem;
+    margin: 1rem 0;
+    width: 40%;
     display: flex;
-    justify-content: space-around;
+    gap: 2rem;
 }
 .home-btn button{
-    padding: 0.5rem;
+    padding: 0.7rem 1.1rem;
     border: none;
     background-color: #6e6f71;
     color: rgb(255, 255, 255);

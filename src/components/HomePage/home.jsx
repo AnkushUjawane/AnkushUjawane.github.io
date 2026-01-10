@@ -1,7 +1,8 @@
 import React from 'react'
 import "./home.css"
 import AnkushPhoto from "../../assets/Images/ankush.JPG"
-function home() {
+
+const home = () => {
   return (
     <div className="home">
       <div className='content'>
@@ -20,7 +21,7 @@ function home() {
         </div>
       </div>
       <div className='photo'>
-        <img src={AnkushPhoto} alt="Ankush Image" width={350} />
+        <img src={AnkushPhoto} alt="Ankush Image" width={350} className='my-photo'/>
       </div>
     </div>
   )

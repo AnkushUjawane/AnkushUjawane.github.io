@@ -11,12 +11,12 @@ const navbar = () => {
         <div className='nav-group'>
           <ul className='nav-menu'>
             <li className="nav-item">
-              <NavLink className="nav-link">
+              <NavLink className="nav-link" to='/'>
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link">
+              <NavLink className="nav-link" exact to='/about'>
                 About Us
               </NavLink>
             </li>
