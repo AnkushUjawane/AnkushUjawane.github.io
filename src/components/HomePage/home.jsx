@@ -4,7 +4,7 @@ import AnkushPhoto from "../../assets/Images/ankush.JPG"
 
 const home = () => {
   return (
-    <div className="home">
+    <div className="home" >
       <div className='content'>
         <div className='hi'>
           <h3>Hello, I'm</h3>

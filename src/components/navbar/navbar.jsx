@@ -11,29 +11,19 @@ const navbar = () => {
         <div className='nav-group'>
           <ul className='nav-menu'>
             <li className="nav-item">
-              <NavLink className="nav-link" to='/'>
-                Home
-              </NavLink>
+              <a href="#home">Home</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" exact to='/about'>
-                About Us
-              </NavLink>
+              <a href="#about">About Us</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link">
-                Projects
-              </NavLink>
+              <a href="">Projects</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link">
-                Skills
-              </NavLink>
+              <a href="">Skills</a>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link">
-                Contact Me
-              </NavLink>
+              <a href="">Contact Me</a>
             </li>
           </ul>
         </div>
