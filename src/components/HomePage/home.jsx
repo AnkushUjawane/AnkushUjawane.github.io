@@ -17,11 +17,13 @@ const home = () => {
         </div>
         <div className='home-btn'>
           <button>Contact Me</button>
-          <button>About Us</button>
+          <a href="#about">
+            <button>About Me</button>
+          </a>
         </div>
       </div>
       <div className='photo'>
-        <img src={AnkushPhoto} alt="Ankush Image" width={350} className='my-photo'/>
+        <img src={AnkushPhoto} alt="Ankush Image" width={350} className='my-photo' />
       </div>
     </div>
   )
