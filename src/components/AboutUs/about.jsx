@@ -10,7 +10,24 @@ function about() {
       <div className='side-container'>
         <div className='education'>
           <h2>Education: </h2>
-          <p>Computer Science Engineering at SGGSIE&T Nanded</p>
+          <div className='btech'>
+            <h3>
+              <li>B.Tech in Computer Science & Engineering</li>
+            </h3>
+            <div className='btech-info'>
+              <p>SGGSIE&T Nanded</p>
+              <p>Nov 2022 - May 2026</p>
+            </div>
+            <p>CGPA: 7.02</p>
+          </div>
+          <div className='hsc'>
+            <h3><li>Higher Secondary Education</li></h3>
+            <div className='hsc-info'>
+              <p>Late Jyoti Janolkar Jr College</p>
+              <p>Jun 2021 - May 2022</p>
+            </div>
+            <p>Percentage: 80.17%</p>
+          </div>
         </div>
         <div className='interests'>
           <h2>Interests: </h2>
