@@ -8,7 +8,7 @@ function App() {
   return (
     <div className='app'>
       <Snowfall style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: -1 }} snowflakeCount={300} />
-      <Navbar id='home' />
+      <Navbar />
       <HomePage />
       <AboutUs />
     </div>
