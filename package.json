@@ -16,6 +16,7 @@
     "@mui/icons-material": "^7.3.7",
     "@mui/material": "^7.3.7",
     "animated-backgrounds": "^2.0.0",
+    "motion": "^12.26.2",
     "react": "^19.2.0",
     "react-background-animation": "^1.0.1",
     "react-dom": "^19.2.0",

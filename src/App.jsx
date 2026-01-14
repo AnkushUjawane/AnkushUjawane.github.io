@@ -2,6 +2,7 @@ import Snowfall from 'react-snowfall'
 import HomePage from './components/HomePage/home'
 import Navbar from './components/navbar/navbar.jsx'
 import AboutUs from './components/AboutUs/about.jsx'
+import Project from './components/ProjectPage/project.jsx'
 import './App.css'
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navbar />
       <HomePage />
       <AboutUs />
+      <Project />
     </div>
   )
 }
