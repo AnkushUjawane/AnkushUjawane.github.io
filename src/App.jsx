@@ -8,7 +8,7 @@ import './App.css'
 function App() {
   return (
     <div className='app'>
-      <Snowfall style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: 0 }} snowflakeCount={100} color='#ffffff'/>
+      <Snowfall style={{ position: 'fixed', width: '100vw', height: '100vh', zIndex: 0 }} snowflakeCount={100} color='rgba(255,255,255,0.7)'/>
       <Navbar />
       <HomePage />
       <AboutUs />

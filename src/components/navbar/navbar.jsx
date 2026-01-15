@@ -1,10 +1,9 @@
 import React from 'react'
-import { NavLink } from 'react-router-dom'
 import IconButton from '@mui/material/IconButton'
 import Stack from '@mui/material/Stack'
 import { GitHub, LinkedIn } from '@mui/icons-material'
 import "./navbar.css"
-const navbar = () => {
+const Navbar = () => {
   return (
     <div>
       <nav className='navbar'>
@@ -43,4 +42,4 @@ const navbar = () => {
   )
 }
 
-export default navbar
+export default Navbar

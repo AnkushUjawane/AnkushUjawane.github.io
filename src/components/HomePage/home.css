@@ -15,6 +15,7 @@
 .photo{
     width: 45%;
     text-align: center;
+    z-index: 1;
 }
 @keyframes fadeInUp {
     from {
@@ -32,14 +33,16 @@
 .content .hi{
     font-size: 1.5rem;
     height: 1rem;
-}
+    color: wheat;
+}   
 .content .name{
     font-size: 2rem;
     height: 6.5rem;
+    color: white;
 }
 .content .role{
     font-size: 1rem;
-    height: 3rem;
+    height: 3.5rem;
     color: #ff9727;
 }
 .content .home-btn{
@@ -48,13 +51,68 @@
     display: flex;
     gap: 2rem;
 }
-.home-btn button{
-    padding: 0.7rem 1.1rem;
-    border: none;
-    background-color: #6e6f71;
-    color: rgb(255, 255, 255);
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 1rem;
-    box-shadow: 2px 2px 2px #000000;
+
+.neo-btn {
+  position: relative;
+  padding: 0.7rem 1.1rem;
+  background: transparent;
+  color: white;
+  font-size: 0.9rem;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  border: none;
+  z-index: 1;
+}
+
+.neo-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1px;
+  border-radius: inherit;
+  background: linear-gradient(
+    90deg,
+    red,
+    transparent,
+    red
+  );
+  background-size: 200% 200%;
+  mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  -webkit-mask:
+    linear-gradient(#fff 0 0) content-box,
+    linear-gradient(#fff 0 0);
+  mask-composite: exclude;
+  -webkit-mask-composite: xor;
+  transition: background-position 0.7s ease, filter 0.4s ease;
+  z-index: -1;
+}
+
+.neo-btn::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(270deg, red, #000);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: -2;
+}
+
+.neo-btn:hover::before {
+  background-position: 100% 100%;
+  filter: drop-shadow(0 0 10px red);
+}
+
+.neo-btn:hover::after {
+  opacity: 0.25;
+}
+
+.neo-btn:hover {
+  transform: translateY(-1px);
+}
+
+.neo-btn:active {
+  transform: scale(0.96);
 }
