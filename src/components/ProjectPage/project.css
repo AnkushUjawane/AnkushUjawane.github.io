@@ -11,6 +11,15 @@
     border-radius: 10px;
     padding: 0.5rem;
 }
-.project-name, .project-desp, .project-skill, .project-code{
-    border: 1px solid #000000;
+.project-name{
+    border: 2px solid #ff0000;
+}
+.project-desp{
+    border: 2px solid #ff8800;
+}
+.project-skill{
+    border: 2px solid #0004ff;
+}
+.project-code{
+    border: 2px solid #dd00ff;
 }
