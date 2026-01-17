@@ -1,5 +1,5 @@
 export const projects = [
-    { id: 1, name: "Portfolio", description: "Fake people tend to view themselves as above others; when you think about it, this explains why they don't believe honesty or loyalty to others is important. Disingenuous individuals generally behave in problematic ways while expecting others to swallow and deal with it", skills: ["skill1", "skill3", "skill3"], githubLink: "githublink" },
-    { id: 2, name: "Project Name1", description: "Project Description", skills: ["sql", "skill2", "skill3"], githubLink: "#" },
-    { id: 3, name: "Project Name2", description: "Project Description", skills: ["skill1", "skill2", "skill3"], githubLink: "#" },
+    { id: 1, name: "Portfolio", description: "This is my personal static portfolio where I share my projects, skills, and progress as a developer. It highlights what I’m learning, what I’ve built, and my enthusiasm for creating meaningful and user-friendly web solutions.", githubLink: "Github" },
+    { id: 2, name: "Blockchain-Secure-Traveler", description: "SIH2025 Project - A real-time safety navigator that protects tourists and citizens from natural disasters using predictive analytics.", githubLink: "#" },
+    { id: 3, name: "Utsav-2025", description: "Developed a dynamic, user-friendly web application for Utsav, the official cultural event of SGGSIET, enabling event promotion, media uploads, and user interaction. Designed a responsive and interactive frontend using React with a clean UI showcasing event schedules, highlights, and galleries. ", githubLink: "#" },
 ];

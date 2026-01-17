@@ -15,11 +15,6 @@ const Project = () => {
                     <div className='project-desp'>
                         <p>{proj.description}</p>
                     </div>
-                    <div className='project-skill'>
-                        <h4>{proj.skills[0]}</h4>
-                        <h4>{proj.skills[1]}</h4>
-                        <h4>{proj.skills[2]}</h4>
-                    </div>
                     <div className='project-code'>
                         <button>{proj.githubLink}</button>
                     </div>

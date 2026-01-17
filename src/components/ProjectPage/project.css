@@ -44,18 +44,7 @@
     color: white;
     height: 50% ;
 }
-.project-skill{
-    display: flex;
-    flex-direction: row;
-    border: 2px solid #0004ff;
-    color: white;
-}
-.project-skill h4{
-    background-color: #ff8800;
-    margin: 1rem 0.5rem;
-    padding: 0.2rem 0.6rem;
-    border-radius: 10px;
-}
+
 .project-code{
     text-align: center;
     border: 2px solid #dd00ff;
