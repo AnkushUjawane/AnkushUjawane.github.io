@@ -2,7 +2,7 @@ import React from 'react'
 import "./home.css"
 import AnkushPhoto from "../../assets/Images/ankush.JPG"
 
-const home = () => {
+const Home = () => {
   return (
     <div className="home" id='home'>
       <div className='content'>
@@ -31,4 +31,4 @@ const home = () => {
   )
 }
 
-export default home
+export default Home

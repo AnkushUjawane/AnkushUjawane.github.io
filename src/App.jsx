@@ -3,6 +3,7 @@ import HomePage from './components/HomePage/home'
 import Navbar from './components/navbar/navbar.jsx'
 import AboutUs from './components/AboutUs/about.jsx'
 import Project from './components/ProjectPage/project.jsx'
+import Skill from './components/SkillPage/skill.jsx'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
       <HomePage />
       <AboutUs />
       <Project />
+      <Skill />
     </div>
   )
 }

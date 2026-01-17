@@ -2,7 +2,7 @@ import React from 'react'
 import { projects } from './projectdata.js'
 import './project.css'
 
-function project() {
+const Project = () => {
   return (
     <div className='project' id='projects'>
         <h1>My Projects</h1>
@@ -30,4 +30,4 @@ function project() {
   )
 }
 
-export default project
+export default Project
