@@ -18,7 +18,7 @@ function about() {
               <p>SGGSIE&T Nanded</p>
               <p>Nov 2022 - May 2026</p>
             </div>
-            <p>CGPA: 7.02</p>
+            <p className='grade'>CGPA: 7.02</p>
           </div>
           <div className='hsc'>
             <h3><li>Higher Secondary Education</li></h3>
@@ -26,7 +26,7 @@ function about() {
               <p>Late Jyoti Janolkar Jr College</p>
               <p>Jun 2021 - May 2022</p>
             </div>
-            <p>Percentage: 80.17%</p>
+            <p className='grade'>Percentage: 80.17%</p>
           </div>
         </div>
         <div className='interests'>
