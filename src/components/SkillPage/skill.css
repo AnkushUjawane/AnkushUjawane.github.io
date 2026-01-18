@@ -1,3 +1,22 @@
-h1{
+.slider-skill{
+    border: 2px solid white;
+    margin: 2rem;
+}
+.slider-skill h1{
+    text-align: center;
+    margin-bottom: 2rem;
     color: white;
+    margin: 1rem;
+}
+.slider{
+    border: 1px solid red;
+}
+.skill-container{
+    border: 2px solid blue;
+    margin: 0rem;
+    padding: 1rem;
+    background-color: grey;
+    color: white;
+    text-align: center;
+    font-size: 2rem;
 }
