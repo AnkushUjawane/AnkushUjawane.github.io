@@ -7,8 +7,8 @@ const Project = () => {
     <div className='project' id='projects'>
         <h1>My Projects</h1>
         <div className='project-card'>
-            {projects.map(proj => (
-                <div className='cards'>
+            {projects.map((proj, index) => (
+                <div className='cards' key={index}>
                     <div className='project-name'>
                         <h2>{proj.name}</h2>
                     </div>
@@ -16,7 +16,9 @@ const Project = () => {
                         <p>{proj.description}</p>
                     </div>
                     <div className='project-code'>
-                        <button>{proj.githubLink}</button>
+                        <a href={proj.githubLink} target='_blank' rel='noopener noreferrer'>
+                            <button>Github</button>
+                        </a>
                     </div>
                 </div>
             ))}
