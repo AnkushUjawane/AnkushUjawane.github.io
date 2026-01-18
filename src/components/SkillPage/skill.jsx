@@ -11,7 +11,7 @@ const Skill = () => {
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 1,
-    autoplay: true,
+    // autoplay: true,
     speed: 1000,
     autoplaySpeed: 1000,
     cssEase: "linear",
@@ -19,7 +19,7 @@ const Skill = () => {
 
   return (
     <div id='skill' className='slider-skill'>
-      <h1>Skill</h1>
+      <h1>Skills</h1>
       <Slider {...settings} className='slider'>
         {skills.map((skill, index) => {
           const Icon = skill.icon;

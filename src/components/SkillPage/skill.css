@@ -1,22 +1,29 @@
 .slider-skill{
-    border: 2px solid white;
     margin: 2rem;
 }
 .slider-skill h1{
     text-align: center;
-    margin-bottom: 2rem;
+    font-size: 3rem;
+    font-family: 'Rajdhani', sans-serif;
+    text-shadow: 2px 2px 10px #ffffffa0;
+    letter-spacing: 0.08rem;
     color: white;
-    margin: 1rem;
+    margin: 3rem 0 0rem 0;
 }
 .slider{
     border: 1px solid red;
+    margin: 5rem 0 ;
 }
 .skill-container{
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
     margin: 0rem;
-    padding: 1rem;
-    background-color: grey;
+    padding: 1rem 0;
     color: white;
     text-align: center;
     font-size: 2rem;
+}
+.skill-icon{
+    width: 5rem;
+    height: 5rem;
+    /* background-color: aqua; */
 }
