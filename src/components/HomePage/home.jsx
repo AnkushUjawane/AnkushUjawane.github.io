@@ -16,8 +16,8 @@ const Home = () => {
           <h2>Software Engineer | Web Developer</h2>
         </div>
         <div className='home-btn'>
-          <a href="">
-            <button className='neo-btn'>Contact Me</button>
+          <a href="#projects">
+            <button className='neo-btn'>My Projects</button>
           </a>
           <a href="#about">
             <button className='neo-btn'>About Me</button>

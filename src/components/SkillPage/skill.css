@@ -11,19 +11,19 @@
     margin: 3rem 0 0rem 0;
 }
 .slider{
-    border: 1px solid red;
     margin: 5rem 0 ;
 }
 .skill-container{
-    /* border: 2px solid blue; */
     margin: 0rem;
     padding: 1rem 0;
     color: white;
     text-align: center;
     font-size: 2rem;
 }
+.skill-container p{
+    font-family: 'Rajdhani', sans-serif;
+}
 .skill-icon{
-    width: 5rem;
-    height: 5rem;
-    /* background-color: aqua; */
+    width: 6rem;
+    height: 6rem;
 }
