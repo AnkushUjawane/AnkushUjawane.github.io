@@ -1,3 +1,86 @@
-h1{
-    color: white;
+.footer {
+   display: flex;
+   flex-direction: row;
+   gap: 1.5rem;
+   padding: 2rem;
+   background-color: #000;
+   color: #ffffff;
+   border: 1px solid white;
+}
+
+/* LEFT SECTION */
+.footer-intro {
+   width: 40%;
+   text-align: center;
+   border: 1px solid white;
+   padding: 2rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 0.6rem;
+}
+
+.footer-name {
+   font-size: 2rem;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+
+.footer-role {
+   font-size: 1rem;
+   color: rgba(255, 255, 255, 0.7);
+   font-weight: 400;
+}
+
+/* RIGHT SECTION */
+.footer-info {
+   display: flex;
+   flex-direction: row;
+   gap: 1.5rem;
+   width: 60%;
+   border: 1px solid white;
+   padding: 1.5rem;
+}
+
+.footer-contact,
+.footer-connect {
+   width: 50%;
+   text-align: center;
+   border: 1px solid white;
+   padding: 1.5rem;
+
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   gap: 0.7rem;
+}
+
+.footer-heading {
+   font-size: 1.1rem;
+   margin-bottom: 0.8rem;
+   letter-spacing: 0.5px;
+}
+
+.footer-contact p {
+   text-align: left;
+   font-size: 0.9rem;
+   color: rgba(255, 255, 255, 0.75);
+}
+
+/* ICON AREA */
+.footer-icons {
+   border: 1px solid white;
+   justify-content: center;
+   padding: 0.8rem;
+}
+
+.footer-icons button {
+   color: rgba(255, 255, 255, 0.85);
+   transition: all 0.3s ease;
+}
+
+.footer-icons button:hover {
+   color: #38bdf8;
+   transform: translateY(-2px);
 }
