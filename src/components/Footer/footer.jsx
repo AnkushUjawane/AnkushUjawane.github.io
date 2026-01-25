@@ -9,19 +9,25 @@ const Footer = () => {
             <footer className="footer">
                 <div className="footer-intro">
                     <h1 className="footer-name">Ankush Ujawane</h1>
-                    <h2 className="footer-role">Software Engineer</h2>
+                    <h2 className="footer-role">Software Engineer | Web Developer</h2>
                 </div>
 
                 <div className="footer-info">
                     <div className="footer-contact">
-                        <h1 className="footer-heading">Contact Information</h1>
-                        <p>Email: ankushujawane18@gmail.com</p>
-                        <p>Phone: +91 7517780013</p>
-                        <p>Location: Akola, Maharashtra, India</p>
+                        <div className="footer-heading">
+                            <h1>Contact Information</h1>
+                        </div>
+                        <div className="footer-dscp">
+                            <p>Email: ankushujawane18@gmail.com</p>
+                            <p>Phone: +91 7517780013</p>
+                            <p>Location: Akola, Maharashtra, India</p>
+                        </div>
                     </div>
 
                     <div className="footer-connect">
-                        <h1 className="footer-heading">Connect With Me</h1>
+                        <div className="footer-heading">
+                            <h1>Connect With Me</h1>
+                        </div>
                         <Stack
                             className="footer-icons"
                             direction="row"
@@ -49,6 +55,10 @@ const Footer = () => {
                     </div>
                 </div>
             </footer>
+
+            <hr />
+
+            <p className="copyright">© 2026 Ankush Ujawane. All rights reserved.</p>
         </div>
     )
 }
