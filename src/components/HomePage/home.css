@@ -1,55 +1,64 @@
-.home{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    font-family: 'Rajdhani', sans-serif;
-    padding: 3rem 0 0 0;
+.home {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 3rem 0 0 0;
 }
-.content{
-    padding: 0 3rem;
-    width: 55%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+
+.content {
+  padding: 0 3rem;
+  width: 55%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.photo{
-    width: 45%;
-    text-align: center;
-    z-index: 1;
+
+.photo {
+  width: 45%;
+  text-align: center;
+  z-index: 1;
 }
+
 @keyframes fadeInUp {
-    from {
-        opacity: 0;
-        transform: translate3d(0, 40px, 0);
-    }
-    to {
-        opacity: 1;
-        transform: translate3d(0, 0, 0);
-    }
+  from {
+    opacity: 0;
+    transform: translate3d(0, 40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
 }
-.my-photo{
-    animation: 1s fadeInUp;
+
+.my-photo {
+  animation: 1s fadeInUp;
 }
-.content .hi{
-    font-size: 1.5rem;
-    height: 1rem;
-    color: wheat;
-}   
-.content .name{
-    font-size: 2rem;
-    height: 6.5rem;
-    color: white;
+
+.content .hi {
+  font-size: 1.5rem;
+  height: 1rem;
+  color: wheat;
 }
-.content .role{
-    font-size: 1rem;
-    height: 3.5rem;
-    color: #ff9727;
+
+.content .name {
+  font-size: 2rem;
+  height: 6.5rem;
+  color: white;
 }
-.content .home-btn{
-    margin: 1rem 0;
-    width: 40%;
-    display: flex;
-    gap: 2rem;
+
+.content .role {
+  font-size: 1rem;
+  height: 3.5rem;
+  color: #ff9727;
+}
+
+.content .home-btn {
+  margin: 1rem 0;
+  width: 40%;
+  display: flex;
+  gap: 2rem;
 }
 
 .neo-btn {
@@ -71,12 +80,10 @@
   inset: 0;
   padding: 1px;
   border-radius: inherit;
-  background: linear-gradient(
-    90deg,
-    red,
-    transparent,
-    red
-  );
+  background: linear-gradient(90deg,
+      red,
+      transparent,
+      red);
   background-size: 200% 200%;
   mask:
     linear-gradient(#fff 0 0) content-box,
@@ -115,4 +122,16 @@
 
 .neo-btn:active {
   transform: scale(0.96);
+}
+
+@media (max-width: 1024px){
+  .home{
+    border: 1px solid white;
+  }
+  .content{
+    border: 1px solid red;
+  }
+  .hi{
+    border: 2px solid yellow;
+  }
 }
