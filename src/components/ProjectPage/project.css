@@ -1,32 +1,95 @@
-.project{
-    padding: 6rem 0 2rem 0;
+.project {
+  padding: 6rem 0 2rem 0;
 }
-.project h1{
-    text-align: center;
-    font-size: 3rem;
-    font-family: 'Rajdhani', sans-serif;
-    margin: 0.1rem 0 3rem 0;
-    counter-reset: section;
-    color: white;
-    text-shadow: 2px 2px 10px #ffffffa0;
+
+.project h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: 'Rajdhani', sans-serif;
+  margin: 0.1rem 0 3rem 0;
+  counter-reset: section;
+  color: white;
+  text-shadow: 2px 2px 10px #ffffffa0;
 }
-.project-card{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-    grid-auto-rows: auto;
-    grid-gap: 1rem;
-    padding: 1rem;
+
+.project-card {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-auto-rows: auto;
+  grid-gap: 1rem;
+  padding: 1rem;
+}
+
+.cards {
+  border: 1px solid rgb(255, 255, 255, 0.25);
+  background: rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 20px rgba(253, 253, 253, 0.3), inset 0 0 10px rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-name {
+  text-align: center;
+  color: white;
+}
+
+.project-name h2 {
+  font-family: 'Rajdhani', sans-serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.project-desp {
+  color: white;
+  flex: 1;
+  padding: 0 1rem;
+  line-height: 1.3;
+}
+
+.project-code {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5rem;
+}
+
+.project-code button {
+  background: linear-gradient(135deg,
+      rgba(255, 255, 255, 0.35),
+      rgba(255, 255, 255, 0.25),
+      rgba(255, 255, 255, 0.15));
+  border: 1px solid rgb(255, 255, 255, 0.35);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35), inset 0 1px 1px rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  color: #ffffff;
+  font-weight: 600;
+  font-family: 'Rajdhani', sans-serif;
+  padding: 0.5rem 1.5rem;
+  width: auto;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 0.35s ease;
+}
+
+.project-code button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
 
 @media (max-width: 768px) {
   .project {
     padding: 4rem 0 2rem 0;
   }
-  
+
   .project h1 {
     font-size: 2.5rem;
   }
-  
+
   .project-card {
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     padding: 0.5rem;
@@ -35,76 +98,20 @@
 
 @media (max-width: 480px) {
   .project {
-    padding: 3rem 0 1rem 0;
+    padding: 4rem 0 1rem 0;
   }
-  
+
   .project h1 {
     font-size: 2rem;
     margin: 0.1rem 0 2rem 0;
   }
-  
+
   .project-card {
     grid-template-columns: 1fr;
     padding: 0.5rem;
   }
-  
+
   .cards {
     margin: 0 0.5rem;
   }
-}
-.cards{
-    border: 1px solid rgb(255, 255, 255, 0.25);
-    background: rgba(255, 255, 255, 0.08);
-    box-shadow: 0 0 20px rgba(253, 253, 253, 0.3), inset 0 0 10px rgba(255, 255, 255, 0.08);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    border-radius: 10px;
-    padding: 0.2rem;
-    display: flex;
-    flex-direction: column;
-}
-.project-name{
-    text-align: center;
-    color: white;
-}
-.project-name h2{
-    font-family: 'Rajdhani', sans-serif;
-    font-weight: 400;
-    font-size: 1.3rem;
-}
-.project-desp{
-    color: white;
-    flex: 1;
-    padding: 0 1rem;
-    line-height: 1.3;
-}
-.project-code{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0.5rem;
-}
-.project-code button{
-    background: linear-gradient(
-        135deg,
-        rgba(255, 255, 255, 0.35),
-        rgba(255, 255, 255, 0.25),
-        rgba(255, 255, 255, 0.15)
-    );
-    border: 1px solid rgb(255, 255, 255, 0.35);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.35),inset 0 1px 1px rgba(255, 255, 255, 0.25);
-    backdrop-filter: blur(10px);
-    -webkit-backdrop-filter: blur(10px);
-    color: #ffffff;
-    font-weight: 600;
-    font-family: 'Rajdhani', sans-serif;
-    padding: 0.5rem 1.5rem;
-    width: auto;
-    border-radius: 0.5rem;
-    cursor: pointer;
-    transition: all 0.35s ease;
-}
-.project-code button:hover{
-    transform: translateY(-2px);
-    box-shadow: 0 5px 20px rgba(255, 255, 255, 0.4);
 }
