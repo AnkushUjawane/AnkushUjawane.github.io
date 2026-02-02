@@ -7,6 +7,48 @@
    margin: 1rem;
 }
 
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0.5rem;
+  }
+  
+  .footer-intro {
+    width: 100%;
+  }
+  
+  .footer-info {
+    width: 100%;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  
+  .footer-contact,
+  .footer-connect {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    margin: 0.25rem;
+  }
+  
+  .footer-name {
+    font-size: 1.5rem;
+  }
+  
+  .footer-role {
+    font-size: 1.2rem;
+  }
+  
+  .footer-dscp {
+    font-size: 0.9rem;
+  }
+}
+
 .footer-intro {
    width: 40%;
    text-align: center;

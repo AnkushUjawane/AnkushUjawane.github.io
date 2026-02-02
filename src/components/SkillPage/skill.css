@@ -2,6 +2,45 @@
     margin: 0 2rem;
     padding: 1rem 0;
 }
+
+@media (max-width: 768px) {
+  .slider-skill {
+    margin: 0 1rem;
+  }
+  
+  .slider-skill h1 {
+    font-size: 2.5rem;
+    margin: 3rem 0 0rem 0;
+  }
+  
+  .slider {
+    margin: 3rem 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .slider-skill {
+    margin: 0 0.5rem;
+  }
+  
+  .slider-skill h1 {
+    font-size: 2rem;
+    margin: 2rem 0 0rem 0;
+  }
+  
+  .slider {
+    margin: 2rem 0;
+  }
+  
+  .skill-icon {
+    width: 4rem;
+    height: 4rem;
+  }
+  
+  .skill-container {
+    font-size: 1.5rem;
+  }
+}
 .slider-skill h1{
     text-align: center;
     font-size: 3rem;

@@ -91,12 +91,12 @@
     }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 355px) {
     .navbar{
-        width: 98%;
+        width: 97%;
     }
     .nav-menu{
-        gap: 0.9rem;
+        gap: 0.5rem;
     }
     .nav-item a{
         font-size: 0.8rem;

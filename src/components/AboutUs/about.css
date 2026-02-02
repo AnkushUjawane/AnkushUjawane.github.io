@@ -4,6 +4,52 @@
     padding: 5rem 2rem 0;
 }
 
+@media (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    padding: 2rem 1rem 0;
+  }
+  
+  .about-container {
+    width: 100%;
+    margin: 1rem 0;
+  }
+  
+  .about-container p {
+    margin: 1rem;
+    padding: 1rem 2rem;
+  }
+  
+  .side-container {
+    width: 100%;
+    padding: 1rem 0;
+  }
+  
+  .btech .btech-info,
+  .hsc .hsc-info {
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .about {
+    padding: 1rem 0.5rem 0;
+  }
+  
+  .about-container p {
+    margin: 0.5rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+  
+  .side-container {
+    gap: 1.5rem;
+  }
+}
+
 .about-container{
     border-radius: 1rem;
     border: 1px solid rgba(255, 255, 255, 0.2);
@@ -42,8 +88,8 @@
     width: 40%;
 }
 .side-container .education{
-    padding: 0.5rem 2rem;
-    line-height: 1rem;
+    padding: 1rem 2rem;
+    line-height: 1.5rem;
     border-radius: 10px ;
     border: 1px solid rgba(255, 255, 255, 0.2);
     background: linear-gradient(135deg,rgba(255, 255, 255, 0.25),rgba(255, 255, 255, 0.02));
@@ -60,7 +106,7 @@
     text-shadow: 0 0 10px rgba(255, 255, 70, 0.35), 0 0 20px rgba(56, 189, 248, 0.15);;
 }
 .btech, .hsc{
-    line-height: 0.6rem;
+    line-height: 1.5rem;
 }
 .btech h3, .hsc h3{
     font-family: 'Rajdhani', sans-serif;

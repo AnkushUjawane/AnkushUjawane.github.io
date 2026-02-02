@@ -6,14 +6,16 @@ const Home = () => {
   return (
     <div className="home" id='home'>
       <div className='content'>
-        <div className='hi'>
-          <h3>Hello, I'm</h3>
-        </div>
-        <div className='name'>
-          <h1>Ankush Ujawane</h1>
-        </div>
-        <div className='role'>
-          <h2>Software Engineer | Web Developer</h2>
+        <div className='text-content'>
+          <div className='hi'>
+            <h3>Hello, I'm</h3>
+          </div>
+          <div className='name'>
+            <h1>Ankush Ujawane</h1>
+          </div>
+          <div className='role'>
+            <h2>Software Engineer | Web Developer</h2>
+          </div>
         </div>
         <div className='home-btn'>
           <a href="#projects">
