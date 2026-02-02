@@ -34,6 +34,7 @@ const About = () => {
           <ol className='interests-list'>
             <li>Web Development</li>
             <li>Devops</li>
+            <li>Sports(Cricket)</li>
           </ol>
         </div>
       </div>
