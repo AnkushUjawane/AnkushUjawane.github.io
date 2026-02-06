@@ -92,6 +92,9 @@
       width: 100%;
       text-align: center;
    }
+   .footer-heading{
+      font-size: 0.85rem;
+   }
 }
 
 @media (max-width: 480px) {
@@ -100,13 +103,16 @@
    }
 
    .footer-name {
-      font-size: 1.5rem;
+      font-size: 1.7rem;
    }
 
    .footer-role {
       font-size: 1.2rem;
    }
 
+   .footer-heading {
+      font-size: 0.7rem;
+   }
    .footer-dscp {
       font-size: 0.9rem;
    }
