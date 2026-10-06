@@ -5,7 +5,7 @@ const About = () => {
     <div id='about' className='about'>
       <div className='about-container'>
         <h1>About Me</h1>
-        <p>I am passionate Computer Science Engineering student currently in my final year at SGGSIE&T Nanded. My true passion lies in developing innovative software solutions that make a difference. I have a deep love for creating solutions using various technologies such as Docker, Jenkins, Kubernetes and full-stack development. I'm seeking opportunities to apply my knowledge in practical settings, collaborate with experienced professionals, and contribute to meaningful projects that make a difference in how we interact with technology.</p>
+        <p>I am Open Source Contributor and Computer Science Engineering student currently passout from SGGSIE&T Nanded. My true passion lies in developing innovative software solutions and contributing to open source projects that make a difference. I have a deep love for creating solutions using various technologies such as Docker, Jenkins, Kubernetes and full-stack development. I'm seeking opportunities to apply my knowledge in practical settings, collaborate with experienced professionals, and contribute to meaningful open source projects that make a difference in how we interact with technology.</p>
       </div>
       <div className='side-container'>
         <div className='education'>
@@ -18,7 +18,7 @@ const About = () => {
               <p>SGGSIE&T Nanded</p>
               <p>Nov 2022 - May 2026</p>
             </div>
-            <p className='grade'>CGPA: 7.02</p>
+            <p className='grade'>CGPA: 6.98</p>
           </div>
           <div className='hsc'>
             <h3><li>Higher Secondary Education</li></h3>
@@ -32,9 +32,9 @@ const About = () => {
         <div className='interests'>
           <h2>Interests: </h2>
           <ol className='interests-list'>
-            <li>Web Development</li>
-            <li>Devops</li>
-            <li>Sports(Cricket)</li>
+            <li>Open Source Project</li>
+            <li>Devops & Web Development</li>
+            <li>Sports(Cricket, Badminton)</li>
           </ol>
         </div>
       </div>
